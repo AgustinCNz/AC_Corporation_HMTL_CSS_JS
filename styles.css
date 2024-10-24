@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #444;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Aside (barra lateral) */
+aside {
+    width: 20%;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+}
+aside h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Section */
+section {
+    width: 80%;
+    padding: 15px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    font-size: 1.5em;
+}
+
+.producto p {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
